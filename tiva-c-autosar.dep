@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3044612706</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\lib\m4t_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\tiva-c-autosar.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\tiva-c-autosar.pbd</file>
+      <file>$PROJ_DIR$\Common_Macros.h</file>
+      <file>$PROJ_DIR$\Compiler.h</file>
+      <file>$TOOLKIT_DIR$\lib\shs_l.a</file>
+      <file>$PROJ_DIR$\Det.h</file>
+      <file>$TOOLKIT_DIR$\config\generic.icf</file>
+      <file>$TOOLKIT_DIR$\lib\rt4t_al.a</file>
+      <file>$PROJ_DIR$\Det.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Dio_PBcfg.pbi</file>
+      <file>$PROJ_DIR$\Dio.h</file>
+      <file>$PROJ_DIR$\Dio_Cfg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Det.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Dio_PBcfg.o</file>
+      <file>$PROJ_DIR$\Dio_PBcfg.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Dio.pbi</file>
+      <file>$PROJ_DIR$\Dio.c</file>
+      <file>$PROJ_DIR$\Dio_Regs.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Dio.o</file>
+      <file>$PROJ_DIR$\Std_Types.h</file>
+      <file>$PROJ_DIR$\tm4c123gh6pm_registers.h</file>
+      <file>$PROJ_DIR$\Platform_Types.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Det.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl4t_tln.a</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3 4 1 2 34 6 7 5 21 30 32 14 22 13 16 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 4 1 2 34 6 7 5 21 30 32 14 22 13 16 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\tiva-c-autosar.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 17 33 29 24 9 15 18 0 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Det.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 30 32 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 30 32 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Dio_PBcfg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21 30 32 14 22 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 30 32 14 22 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Dio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21 30 32 14 22 13 28 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 30 32 14 22 13 28 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
